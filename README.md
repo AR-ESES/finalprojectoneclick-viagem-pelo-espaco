@@ -16,8 +16,12 @@ O jogador controla uma nave espacial que tem que se desviar dos vários planetas
 - Obstáculos: O jogador enfrentará obstáculos como planetas, asteróides que devem ser superados. Os planetas aparecerão pela ordem do sistema solar (Mercúrio, Vénus, Terra, Marte, Júpiter, Saturno, Urano e Neptuno e Plutão).
 - Colisão: Duranto o jogo o jogador poderá vir a colidir com um planeta ou asteróide. Se isso acontecer, poderá perder o jogo e irá a aprecer uma breve explicação do que é o sitema solar. 
   
+### Elementos Do Jogo
 
-Code 	`code`
+## Personagem principal - Nave Espacial
+![desenho do Asteroide](marte.png)
+
+
 
 Horizontal Rule 	---
 

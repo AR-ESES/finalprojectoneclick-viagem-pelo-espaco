@@ -7,10 +7,15 @@
 
 ### Descrição 	
 O jogador controla uma nave espacial que tem que se desviar dos vários planetas e asteróides. Se o jogador colidir com algum planeta ou asteróide perderá o jogo terá uma breve explicação do sistema solar. Este jogo é direcionado para o 2º ciclo.
-### Unordered List 	
-- First item
-- Second item
-- Third item
+
+
+### Recursos do jogo 	
+
+- Personagem principal: Nave Espacial
+- Modo do jogo: O jogo ocorre na horizontal com a gravidade influenciando o movimento da nave (cima, baixo). Essa nave terá que se desviar dos vários planetas e asteróides que vão aparecendo no plano do jogo.
+- Obstáculos: O jogador enfrentará obstáculos como planetas, asteróides que devem ser superados. Os planetas aparecerão pela ordem do sistema solar (Mercúrio, Vénus, Terra, Marte, Júpiter, Saturno, Urano e Neptuno e Plutão).
+- Colisão: Duranto o jogo o jogador poderá vir a colidir com um planeta ou asteróide. Se isso acontecer, poderá perder o jogo e irá a aprecer uma breve explicação do que é o sitema solar. 
+  
 
 Code 	`code`
 

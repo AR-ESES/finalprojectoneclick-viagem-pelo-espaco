@@ -5,11 +5,8 @@
 
 ## Tema: Viagem pelo Espaço
 
-### Ordered List 	
-1. First item
-2. Second item
-3. Third item
-4. 
+### Descrição 	
+O jogador controla uma nave espacial que tem que se desviar dos vários planetas e asteróides. Se o jogador colidir com algum planeta ou asteróide perderá o jogo terá uma breve explicação do sistema solar. Este jogo é direcionado para o 2º ciclo.
 ### Unordered List 	
 - First item
 - Second item

@@ -4,9 +4,9 @@ function Character() {
   this.push = 0.96;
   this.lift = -30;
   this.velocity = 0;
-  this.diam = 80;
-  this.img = loadImage("space.png");
-  this.minHeight = 300;
+  this.diam = 100;
+  this.img = loadImage("Nave-06.png");
+  this.minHeight = 90;
 
   this.show = function () {
     // use this function to design the main character

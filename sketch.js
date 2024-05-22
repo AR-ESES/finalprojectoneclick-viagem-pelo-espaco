@@ -1,24 +1,33 @@
 let spaceship;
-let meteorites1 = []; //obstacle Type 1 List, duplicate with different name if you want more
+let meteorites1 = []; // obstacle Type 1 List, duplicate with different name if you want more
+let meteorites2 = [];
+
+
 let obstaclesCleared;
 let obstaclesHit;
 
-let frameCountBettwenObstaclesType1 = 20;
-let nivelDeDificuldade = 1;
+let frameCountBettwenObstaclesType1 = 40; // quantidade de vezes que aparece
+let nivelDeDificuldade = 3;
+let backgroundImage; // variável para a imagem de fundo
 
 function setup() {
-  var canvas = createCanvas(800, 600);
+  var canvas = createCanvas(1420, 800);
   spaceship = new Character();
 
   obstaclesCleared = 0;
   obstaclesHit = 0;
 
+  //ACRESCENTAR
   meteorites1.push(new Obstacle());
+  meteorites2.push(new Obstacle2());
+  
+
 }
 
+//CODIGO MARTE
 function draw() {
   clear();
-  background(0, 20, 50);
+  image(backgroundImage, 0, 0, width, height); // desenha a imagem de fundo
 
   spaceship.show();
   spaceship.update();
@@ -40,6 +49,30 @@ function draw() {
       obstaclesCleared++;
     }
   }
+
+
+  //CODIGO NEPTUNO
+  if (frameCount % frameCountBettwenObstaclesType1 == 0) {
+    meteorites2.push(new Obstacle2());
+  }
+
+  for (var i = meteorites2.length - 1; i >= 0; i--) {
+    meteorites2[i].show();
+    meteorites2[i].update();
+
+    if (meteorites2[i].hits(spaceship)) {
+      obstaclesHit++;
+    }
+
+    if (meteorites2[i].offscreen()) {
+      meteorites2.splice(i, 1);
+      obstaclesCleared++;
+    }
+  }
+}
+
+function preload() {
+  backgroundImage = loadImage('Background.png'); // imagem de fundo
 }
 
 function keyPressed() {
@@ -47,3 +80,4 @@ function keyPressed() {
     spaceship.goUp();
   }
 }
+

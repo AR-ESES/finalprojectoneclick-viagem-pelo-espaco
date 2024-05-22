@@ -3,13 +3,13 @@
 function Obstacle() {
   this.x = width;
   this.y = random(height);
-  this.w = random(30, 80);
+  this.w = 100; // Tamanho fixo
   this.topMin = 50;
   this.botMin = height - 50;
   this.gapStart = random(this.topMin, this.botMin);
   this.gapLength = 200;
   this.speed = 10;
-  this.img2 = loadImage("asteroid.png");
+  this.img2 = loadImage("Marte.png");
 
   this.show = function () {
     fill(0);
@@ -54,3 +54,4 @@ function Obstacle() {
     return false;
   };
 }
+

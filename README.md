@@ -73,6 +73,6 @@ O jogador controla uma nave espacial que tem que se desviar dos vários planetas
 ![Caneca](Caneca.png)
 
 ## Link Video de Apresentação do Jogo	
-![Video de Apresentação](https://youtu.be/FeuOZX3zYRA)
+[Video de Apresentação](https://youtu.be/FeuOZX3zYRA)
 
 

@@ -55,14 +55,14 @@ O jogador controla uma nave espacial que tem que se desviar dos vários planetas
 ![Jogo](Ecr5.png)
 ![Jogo](Ecr6.png)
 ![Jogo](Ecr7.png)
-![Jogo](ecr8.png)
-![Jogo](ecr9.png)
-![Jogo](ecr10.png)
-![Jogo](ecr11.png)
-![Jogo](ecr12.png)
-![Jogo](ecr13.png)
-![Jogo](ecrinicial.png)
-![Jogo](ecrPerdeste.png)
+![Jogo](Ecr8.png)
+![Jogo](Ecr9.png)
+![Jogo](Ecr10.png)
+![Jogo](Ecr11.png)
+![Jogo](Ecr12.png)
+![Jogo](Ecr13.png)
+![Jogo](Ecrinicial.png)
+![Jogo](EcrPerdeste.png)
 
 
 ## Mockups

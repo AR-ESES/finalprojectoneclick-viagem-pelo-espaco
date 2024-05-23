@@ -38,7 +38,7 @@ O jogador controla uma nave espacial que tem que se desviar dos vários planetas
 # Neptuno
 ![desenho personagem principal](Neptuno.png)
 # Plutão
-[desenho personagem principal](Pluto.png)
+[desenho personagem principal](Plutֶo.png)
 # Meteorito
 ![desenho personagem principal](Meteorito%20Pedra.png)
 # Meteorito Fogo

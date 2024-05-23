@@ -48,8 +48,8 @@ O jogador controla uma nave espacial que tem que se desviar dos vários planetas
 ![desenho do Logo](Logo.png)
 
 ## Ercãs - Situações do Jogo	
-![Jogo](ecr1.png)
-![Jogo](ecr2.png)
+[Jogo](ecr1.png)
+[Jogo](ecr2.png)
 ![Jogo](ecr3.png)
 ![Jogo](ecr4.png)
 ![Jogo](ecr5.png)

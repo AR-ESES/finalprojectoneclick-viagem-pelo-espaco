@@ -61,7 +61,7 @@ O jogador controla uma nave espacial que tem que se desviar dos vários planetas
 ![Jogo](Ecr11.png)
 ![Jogo](Ecr12.png)
 ![Jogo](Ecr13.png)
-![Jogo](Ecrinicial.png)
+![Jogo](EcrInicial.png)
 ![Jogo](EcrPerdeste.png)
 
 

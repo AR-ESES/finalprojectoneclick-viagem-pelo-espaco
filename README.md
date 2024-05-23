@@ -17,7 +17,7 @@ O jogador controla uma nave espacial que tem que se desviar dos vários planetas
 ### Elementos Do Jogo
 
 ## Personagem principal - Nave Espacial
-[desenho personagem principal](Nave-06.png)
+![desenho personagem principal](Nave-06.png)
 
 ## Planetas e Asteróides
 
